@@ -1,0 +1,55 @@
+# Data
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+
+# Models
+results/stage*/models/
+*.pth
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logging
+logs/
+*.log
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
