@@ -1,0 +1,12 @@
+torch>=2.0
+torchvision>=0.15
+timm>=0.9.0  # For ViT models
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+pyyaml
+tensorboard
+tqdm
+Pillow
