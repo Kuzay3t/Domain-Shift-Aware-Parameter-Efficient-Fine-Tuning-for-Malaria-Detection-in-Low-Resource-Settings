@@ -1,0 +1,10 @@
+seed: 42
+model: vit_base_patch16_224
+lora_rank: 4
+lora_alpha: 8
+epochs: 15
+learning_rate: 0.0001
+batch_size: 16
+mmd_probe_samples: 500
+data_sizes: [10, 20, 50, 100, 200]
+ablation_sizes: [10, 20]
